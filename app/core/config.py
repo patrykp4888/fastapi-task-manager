@@ -40,4 +40,5 @@ class Settings(BaseSettings):
             return v
         return secrets.token_urlsafe(32)
 
+
 settings = Settings()
