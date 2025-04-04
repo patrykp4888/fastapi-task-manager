@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environment
+venv/
+ENV/
+env/
+taskflow-env/
+
+# Pytest
+.cache/
+.pytest_cache/
+
+# Editor settings
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Mac OS
+.DS_Store
+
+# Logs and temp files
+*.log
+*.tmp
+
+# Env files
+.env
+.env.*
+
+# Alembic migrations (compiled)
+alembic/versions/*.pyc
+
+# Coverage reports
+htmlcov/
+.coverage
+coverage.xml
+
+# mypy / pylint / flake8 / pyright
+.mypy_cache/
+.pyright/
+.pylint.d/
