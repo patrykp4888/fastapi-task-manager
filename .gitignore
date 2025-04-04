@@ -32,8 +32,10 @@ taskflow-env/
 .env
 .env.*
 
-# Alembic migrations (compiled)
+# Alembic
+alembic/__pycache__/
 alembic/versions/*.pyc
+alembic/versions/__pycache__/
 
 # Coverage reports
 htmlcov/
